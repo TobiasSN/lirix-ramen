@@ -6,7 +6,12 @@ Ramen, trin for trin. Now on Lirix!
 
 ### Lirix, Arch Linux, or other Arch Linux derivative
 
-Simply run
+Make sure you have `base-devel` installed:
+````
+sudo pacman -S base-devel
+```
+
+Then run:
 ```
 makepkg
 ```
