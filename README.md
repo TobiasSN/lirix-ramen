@@ -7,7 +7,7 @@ Ramen, trin for trin. Now on Lirix!
 ### Lirix, Arch Linux, or other Arch Linux derivative
 
 Make sure you have `base-devel` installed:
-````
+```
 sudo pacman -S base-devel
 ```
 
