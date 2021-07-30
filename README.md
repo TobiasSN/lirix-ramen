@@ -53,3 +53,5 @@ docker run -it -v $PWD:/build lirix-ramen
 ```
 
 If using Podman, replace `docker` with `podman`, unless you aliased `docker` to `podman`.
+
+After the first time, the first command can be skipped if `Dockerfile` hasn't changed.
