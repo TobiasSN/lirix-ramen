@@ -20,5 +20,9 @@ makepkg
 
 Make sure you have either Docker or Podman installed. If using Docker, make sure the Docker dæmon is running. Then, run:
 
-- Docker: `docker run -it -v $PWD:/build lirix-ramen`
-- Podman: `podman run -it -v $PWD:/build lirix-ramen`
+```bash
+docker build -t lirix-ramen .
+docker run -it -v $PWD:/build lirix-ramen
+```
+
+If using Podman, replace `docker` with `podman`, unless you aliased `docker` to `podman`.
