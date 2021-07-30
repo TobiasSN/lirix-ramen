@@ -3,4 +3,4 @@ pkg
 src
 
 # Output
-ramen-*-*-*.tar
+ramen-*-*-*.pkg.tar.zst
