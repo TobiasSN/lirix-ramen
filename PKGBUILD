@@ -11,5 +11,5 @@ PKGEXT=.tar
 
 package() {
 	mkdir -p $pkgdir/usr/share
-    cp $srcdir/ramen.png $pkgdir/usr/share/
+	cp $srcdir/ramen.png $pkgdir/usr/share/
 }
