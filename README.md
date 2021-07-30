@@ -6,9 +6,9 @@ Ramen, trin for trin. Now on Lirix!
 
 ### Lirix, Arch Linux, or other Arch Linux derivative
 
-Make sure you have `base-devel` installed:
+Make sure you have `base-devel` installed. If on Lirix you may skip this step, as it is preinstalled:
 ```
-sudo pacman -S base-devel
+sudo pacman -S --needed base-devel
 ```
 
 Then run:
